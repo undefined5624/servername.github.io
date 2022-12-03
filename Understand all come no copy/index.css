@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3f4647;
+    height:1000px;
+
+}
+.inline{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;;
+    margin-left: 2vw;
+    font-family: monospace;;
+    font-size: 2vw;
+    text-decoration: none;
+    transition-duration: 2ms;
+}
+.navbar{
+    color: aliceblue;
+    background-color: rgb(17, 15, 15);
+    border:transparent;
+    height: auto;
+    padding: 1vw;
+    text-decoration: none;
+    position: sticky;
+    top: 0; 
+}
+
+.text{
+    font-family: 'Anonymous Pro',monospace;
+    color: aliceblue;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+.qoute{
+    padding-top: 500px;
+    padding-left: 10vw;
+}
+.blink{
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}
+.c1{
+    color: aliceblue;
+    text-decoration: none;;
+    display: inline;
+    transition-duration: 2ms;
+}.c2{
+    color: aliceblue;
+    text-decoration: none;;
+    display: inline;
+    transition-duration: 2ms;
+}.c3{
+    color: aliceblue;
+    text-decoration: none;;
+    display: inline;
+    transition-duration: 2ms;
+}.c4{
+    color: aliceblue;
+    text-decoration: none;;
+    display: inline;
+    transition-duration: 2ms;
+}
+.c1:hover{
+    color: yellow;
+    text-decoration: none;      
+    display: inline;
+}
+.c2:hover{
+    color: yellow;
+    text-decoration: none;;
+    display: inline;
+}
+.c3:hover{
+    color: yellow;
+    text-decoration: none;;
+    display: inline;
+}
+.c4:hover{
+    color: yellow;
+    text-decoration: none;;
+    display: inline;
+}
+.container{
+    background-image: url('IMG_2695.JPG.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-decoration: none;
+    width: 100%;
+    height: 700px;
+}
+/*section2*/
+.container2{
+    background-color: rgb(14, 12, 12);
+    width: 100%;
+    height: 1000px;
+}
+.text2{
+    font-family: 'Anonymous Pro',monospace;
+    color: aliceblue;
+    font-size: 3vw;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 80px;
+}
